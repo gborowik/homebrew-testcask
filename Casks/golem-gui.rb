@@ -10,6 +10,7 @@ cask 'golem-gui' do
   name 'Golem Worldwide Supercomputer'
   homepage 'https://github.com/golemfactory/golem/'
 
+  system 'docker-machine-driver-xhyve needs root owner and uid, therfore you will be asked twice for root password'
   depends_on formula: 'golemfactory/golem/golem'
 
   app 'golem-electron.app'
