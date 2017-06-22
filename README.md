@@ -13,6 +13,7 @@ Public IP addres or connection via port (see [installation notes](https://github
 
 ## Installation of Golem
 ```
+brew tap golemfactory/golem-gui
 brew cask install golem-gui
 ```
 Please keep in mind that Golem depends on many packages. Therefore, the installation varies on the computer. Some of the packages may already be installed on your computer and the others have to be linked. A typical example is the `docker-machine` package, which provides `brew link docker-machine`. After linking, you must restart Golem installation.
@@ -25,7 +26,7 @@ Type `golem` into Spotlight or select `golem` from Applications.
 ## Reinstallation
 ```
 brew tap golemfactory/golem-gui
-brew cask reinstall golem
+brew cask reinstall golem-gui
 ```
 
 
@@ -34,6 +35,11 @@ brew cask reinstall golem
 brew update && brew upgrade
 ```
 
+## Removing 
+```
+brew cask uninstall golem-gui
+brew uninstall golem
+```
 
 ## Info and Versions
 Print information about installed Golem (including dependencies) with:
