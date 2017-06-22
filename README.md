@@ -20,7 +20,9 @@ Please keep in mind that Golem depends on many packages. Therefore, the installa
 
 
 ## Running Golem
-Type `golem` into Spotlight or select `golem` from Applications.
+Golem is still under development and is not signed with a valid signature.
+The first time you run Golem, your Mac OS X system will surely shout out that it cannot be opened because the software is from an undefined developer. To work around the problem please double click the application from Applications folder in Finder together with `control` key. Subsequently, click `open`.
+Every next time, just type `golem` into Spotlight or select `golem` from Applications.
 
 
 ## Reinstallation
